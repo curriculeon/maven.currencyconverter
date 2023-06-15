@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class Pound {
+import com.github.curriculeon.ConvertableCurrency;
+
+public class Pound implements ConvertableCurrency {
 }

@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class Franc {
+import com.github.curriculeon.ConvertableCurrency;
+
+public class Franc implements ConvertableCurrency {
 }

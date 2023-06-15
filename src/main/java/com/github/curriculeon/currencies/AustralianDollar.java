@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class AustralianDollar {
+import com.github.curriculeon.ConvertableCurrency;
+
+public class AustralianDollar implements ConvertableCurrency {
 }

@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class CanadianDollar{
+import com.github.curriculeon.ConvertableCurrency;
+
+public class CanadianDollar implements ConvertableCurrency {
 }

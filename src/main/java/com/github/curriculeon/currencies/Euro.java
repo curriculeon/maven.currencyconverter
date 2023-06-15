@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class Euro{
+import com.github.curriculeon.ConvertableCurrency;
+
+public class Euro implements ConvertableCurrency {
 }

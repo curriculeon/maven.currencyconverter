@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class UniversalCurrency {
+import com.github.curriculeon.ConvertableCurrency;
+
+public class UniversalCurrency implements ConvertableCurrency {
 }
