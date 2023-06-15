@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class Ringgit {
+import com.github.curriculeon.ConvertableCurrency;
+
+public class Ringgit implements ConvertableCurrency {
 }

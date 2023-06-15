@@ -1,5 +1,7 @@
 package com.github.curriculeon;
 
 public interface ConvertableCurrency {
-    Double convert(CurrencyType currencyType);
+    default Double convert(CurrencyType currencyType) {
+        return currencyType.getRate()/CurrencyType.getTypeOfCurrency(this).getRate();
+    }
 }

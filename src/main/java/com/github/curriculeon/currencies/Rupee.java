@@ -1,4 +1,6 @@
 package com.github.curriculeon.currencies;
 
-public class Rupee {
+import com.github.curriculeon.ConvertableCurrency;
+
+public class Rupee implements ConvertableCurrency {
 }
